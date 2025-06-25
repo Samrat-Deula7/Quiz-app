@@ -23,7 +23,7 @@ let questions =[
         choice2:"china",
         choice3:"New Zealand",
         choice4:"India",
-        answer: 4
+        answer: 3
     },
         {
         question:"What does IP stand for ?",
@@ -76,8 +76,15 @@ choices.forEach(choice=>{
         acceptingAnswers=false;
         const selectedChoice=e.target;
         const selectedAnswer=selectedChoice.dataset['number'];
-        console.log(selectedAnswer);
-        getNewQuestion();
+
+        const classToApply = selectedAnswer == currentQuestion.answer? "correct":"incorrect";
+        selectedChoice.parentElement.classList.add(classToApply);
+        setTimeout(()=>{
+            selectedChoice.parentElement.classList.remove(classToApply);
+        
+            getNewQuestion();
+        },1000)
+     
     });
 })
 
