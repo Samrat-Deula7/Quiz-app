@@ -47,6 +47,7 @@ h3{
     align-items: center;
     max-width: 80rem; /*(80 * 10) = 800*/
     margin: 0 auto;
+    padding: 2rem;
 }
 
 /* In container class I have given width 100vw and height 100vh which means that the width and height of container will increase and decrease with the size of the screen which makes the design responshive */
