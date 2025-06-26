@@ -45,6 +45,52 @@ let questions =[
         choice4:"Dr samrat",
         answer:2
     },
+    
+    {
+        question:"What is the function of a modem ?",
+        choice1:"To modulate and demodulate signals for internet access",
+        choice2:"To maintain security",
+        choice3:"Act as an module",
+        choice4:"for sinking two devices",
+        answer:1
+    },
+        
+    {
+        question:"which device connects a network to the internet ?",
+        choice1:"wifi",
+        choice2:"Router",
+        choice3:"server",
+        choice4:"wire",
+        answer:2
+    },
+        
+    {
+        question:"who was the captain of Argentine in FIFA 2022",
+        choice1:"Ronaldo",
+        choice2:"pelle",
+        choice3:"Lionel Messi",
+        choice4:"Ram",
+        answer:3
+    },
+        
+    {
+        question:"What is the latest iPhone model launched in 2025",
+        choice1:"mac Book",
+        choice2:"Deep seek",
+        choice3:"iPhone 17",
+        choice4:"VR",
+        answer:3
+    },
+        
+    {
+        question:"What is IOT",
+        choice1:"Interest Of Things",
+        choice2:"Internet Of Things",
+        choice3:"Infrastructure Of Things",
+        choice4:"Internet Of Transactions",
+        answer:2
+    },
+ 
 ]
 
 
