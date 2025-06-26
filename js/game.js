@@ -91,6 +91,15 @@ let questions =[
         choice4:"Internet Of Transactions",
         answer:2
     },
+        
+    {
+        question:"Who was the fitst Miss Nepal",
+        choice1:"raini shaha",
+        choice2:"Samira shrestha",
+        choice3:"Ruby Rana",
+        choice4:"Jenisha bhusal",
+        answer:3
+    },
  
 ]
 
@@ -98,7 +107,7 @@ let questions =[
 // constants
 
 const correctBonus=10;
-const maxQuestions=3;
+const maxQuestions=10;
 
 incrementScore=(num)=>{
     score+=num;
